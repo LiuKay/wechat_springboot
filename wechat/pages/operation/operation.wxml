@@ -1,0 +1,17 @@
+<!--pages/operation/operation.wxml-->
+<view class='container'>
+  <form bindsubmit='formSubmit' bindreset='formReset'>
+    <view class='row'>
+      <text>校区名：</text>
+      <input type='text' name='areaName' placeholder='请输入校区名称' value='{{areaName}}'></input>
+    </view>
+    <view class='row'>
+      <text>排名：</text>
+      <input type='text' name='priority' placeholder='请输入排名' value='{{priority}}'></input>
+    </view>
+    <view class='row'>
+      <button type='primary' form-type='submit'>提交</button>
+      <button type='primary' form-type='reset'>重置</button>
+    </view>
+  </form>
+</view>
